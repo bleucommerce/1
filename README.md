@@ -548,4 +548,4 @@ function showFeedback() {
 badge.addEventListener('click', copyEmail);
 badge.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); copyEmail(); } });
 badge.addEventListener('mouseenter', () => { badge.title = 'Cliquer pour copier'; });
-</script># 1
+</script>
